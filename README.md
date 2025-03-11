@@ -41,10 +41,16 @@ cd ../frontend && npm install
 GOOGLE_PALM_API_KEY=your_api_key
 MONGO_URI=your_mongo_connection_string
 ``` 
-### 5️⃣ Start the Frontend
+### 5️⃣ Start the Project
+🔹 Frontend (React UI)
 ```bash
 cd frontend
 npm run dev
+```
+🔹 Backend (Express Server & MongoDB)
+```bash
+cd backend
+node server.js
 ```
 🎯 Now, open http://localhost:5173 to view Task Bridge in action! 🚀  
 
